@@ -1,0 +1,8 @@
+[package]
+name = "day24"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+find_all = "2.0.0"
+priority-queue = "2.1.1"
