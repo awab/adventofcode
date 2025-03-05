@@ -45,7 +45,6 @@ fn main() {
     let mut end_index: i32 = 1;
     let mut steps = 0;
 
-    // 7 because the 1 could be pushed as part of two characters
     while !recipes[(start_index as usize)..(end_index as usize)].windows(requirement.len()).any(|window| window == requirement) {
         elf1_recipe = recipes[elf1_index];
         elf2_recipe = recipes[elf2_index];
