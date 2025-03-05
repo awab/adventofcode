@@ -40,7 +40,7 @@ fn main() {
     let mut recipes = vec![3, 7];
     let requirement = vec![3, 2, 0, 8, 5, 1];
 
-    // always only check up to the last 20 characters
+    // always only check up to the last 30 characters
     let mut start_index: i32 = 0;
     let mut end_index: i32 = 1;
     let mut steps = 0;
